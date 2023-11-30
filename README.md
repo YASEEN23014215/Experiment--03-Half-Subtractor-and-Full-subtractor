@@ -47,6 +47,7 @@ output diff,carry;
 xor(diff,a,b,c);
 assign carry= (~a)&c | (~a)&b | (b&c);
 endmodule
+
 ## Truthtable:
 ## HALF SUBTRACTOR:
 ![image](https://github.com/YASEEN23014215/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149365441/93e17d83-638a-40e6-8c24-d5a9eacbf534)
